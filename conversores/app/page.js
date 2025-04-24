@@ -8,7 +8,7 @@ export default function Home() {
         <li><Link href="/sobre" className="text-blue-600 underline">Sobre</Link></li>
         <li><Link href="/conversor-moeda" className="text-blue-600 underline">Converter BRL para USD</Link></li>
         <li><Link href="/conversor-temperatura" className="text-blue-600 underline">Converter Celsius para Fahrenheit</Link></li>
-        <li><Link href="/conversor-distancia" className="text-blue-600 underline">Converter Distância 'Metro, Pés e Polegada'</Link></li>
+        <li><Link href="/conversor-distancia" className="text-blue-600 underline">Converter Distância: Metro, Pés e Polegada</Link></li>
       </ul>
     </main>
   );
