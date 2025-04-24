@@ -22,21 +22,21 @@ export default function ConversorMoeda() {
   return (
     <main className="min-h-screen p-8 bg-blue-50">
       <div className="max-w-xl mx-auto space-y-6">
-        <h1 className="text-2xl font-bold text-gray-800">Conversor de Moeda</h1>
+        <h1 className="text-2xl font-bold text-black">Conversor de Moeda</h1>
         <div className="space-y-4">
           <input
             type="number"
             placeholder="Reais (BRL)"
             value={real}
             onChange={handleRealChange}
-            className="w-full p-2 rounded border border-gray-300"
+            className="w-full p-2 rounded border text-black"
           />
           <input
             type="number"
             placeholder="Dólares (USD)"
             value={dolar}
             onChange={handleDolarChange}
-            className="w-full p-2 rounded border border-gray-300"
+            className="w-full p-2 rounded border text-black"
           />
         </div>
       </div>

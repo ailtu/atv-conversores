@@ -21,21 +21,21 @@ export default function ConversorTemperatura() {
   return (
     <main className="min-h-screen p-8 bg-red-50">
       <div className="max-w-xl mx-auto space-y-6">
-        <h1 className="text-2xl font-bold text-gray-800">Conversor de Temperatura</h1>
+        <h1 className="text-2xl font-bold text-black">Conversor de Temperatura</h1>
         <div className="space-y-4">
           <input
             type="number"
-            placeholder="Celsius (°C)"
+            placeholder="Celsius °C"
             value={celsius}
             onChange={handleCelsiusChange}
-            className="w-full p-2 rounded border border-gray-300"
+            className="w-full p-2 rounded border text-black"
           />
           <input
             type="number"
-            placeholder="Fahrenheit (°F)"
+            placeholder="Fahrenheit °F"
             value={fahrenheit}
             onChange={handleFahrenheitChange}
-            className="w-full p-2 rounded border border-gray-300"
+            className="w-full p-2 rounded border text-black"
           />
         </div>
       </div>
